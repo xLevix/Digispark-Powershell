@@ -1,3 +1,2 @@
-$text = 'Hello World'
-$text > 'file.txt'
+'XD' > file.txt
 notepad.exe file.txt
